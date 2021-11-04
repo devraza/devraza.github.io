@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(174, 255, 255);
+}
+
+.intro {
+    margin: 0;
+    margin-bottom: 7px;
+    background: linear-gradient(to top right, rgb(255, 66, 255), aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro2 {
+    margin: 0;
+}
+
+.discord-id {
+    margin-top: 0;
+    background-color: gray;
+    border-radius: 20px;
+    width: 100pt;
+    text-align: center;
+    padding: 10px;
+}
