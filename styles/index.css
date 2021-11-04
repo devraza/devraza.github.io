@@ -7,19 +7,35 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(174, 255, 255);
+    color:lightblue;
+}
+
+.top {
+    background-color: rgb(54, 54, 54);
+    padding: 30px;
+    margin: 0;
+}
+
+.code {
+    padding: 2px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 2px;
+    color: lightpink;
 }
 
 .intro {
     margin: 0;
-    margin-bottom: 7px;
-    background: linear-gradient(to top right, rgb(255, 66, 255), aqua);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    color: lightcoral;
 }
 
 .intro2 {
     margin: 0;
+}
+
+.contents {
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .discord-id {
