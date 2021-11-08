@@ -1,55 +1,9 @@
-body {
-    padding: 10px;
-    background-color: rgb(41, 41, 41);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-a {
-    text-decoration: none;
-    color:lightblue;
-}
-
-ul {
-    padding-left: 2%;
-    list-style-type: "- ";
-}
-
-li {
-    margin-bottom: 2px;
-}
-
-code {
-    padding: 2px;
-    background-color: rgb(24, 24, 24);
-    border-radius: 2px;
-    color: lightpink;
-}
-
 .top {
     background-color: rgb(54, 54, 54);
     padding: 30px;
     margin: 0;
 }
 
-.intro {
-    margin: 0;
-    margin-bottom: 10px;
-    color: lightcoral;
-}
-
-.contents {
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
 .divider {
     margin-top: 20px;
-    padding: 30px;
-    background-color: rgb(54, 54, 54);
-}
-
-.footer {
-    margin-top: 40px;
 }
