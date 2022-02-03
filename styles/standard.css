@@ -13,7 +13,7 @@ a {
 
 ul {
     padding-left: 2%;
-    list-style-type: "- ";
+    list-style-type: "+ ";
 }
 
 li {
