@@ -27,6 +27,14 @@ code {
     color: #f4d29c;
 }
 
+.indent-ul {
+    margin-bottom: 1%;
+}
+
+.indent-li {
+    margin-left: 2%;
+}
+
 .intro {
     margin: 0;
     margin-bottom: 10px;
