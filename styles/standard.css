@@ -2,7 +2,7 @@ body {
     margin: 15px;
     padding: 12px;
     color: #cdd6f4;
-    font-family: Iosevka;
+    font-family: monospace;
     background-image: url("../assets/background.jpg");
     background-repeat: repeat;
     background-position: center;
@@ -10,12 +10,11 @@ body {
 }
 
 @font-face {
-    font-family: "Iosevka";
-    src: url("../fonts/Iosevka Nerd Font Complete.ttf");
+    font-family: monospace;
 }
 
 a {
-    font-family: Iosevka;
+    font-family: monospace;
     text-decoration: none;
     color: #f9e2af;
 }
@@ -32,7 +31,7 @@ li {
 
 code {
     padding: 8px;
-    font-family: Iosevka;
+    font-family: monospace;
     background-color: #11111b;
     border-radius: 0px;
     color: #b4befe;
