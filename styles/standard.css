@@ -1,19 +1,29 @@
 body {
     margin: 15px;
     padding: 12px;
-    background-color: #6363b5;
-    color: #ededfc;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #cdd6f4;
+    font-family: Iosevka;
+    background-image: url("../assets/background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Iosevka";
+    src: url("../fonts/Iosevka Nerd Font Complete.ttf");
 }
 
 a {
+    font-family: Iosevka;
     text-decoration: none;
-    color: #a7a7ef;
+    color: #f9e2af;
 }
 
 ul {
     padding-left: 2%;
-    list-style-type: "+ ";
+    list-style-type: "=> ";
+    line-height: 22pt;
 }
 
 li {
@@ -21,10 +31,11 @@ li {
 }
 
 code {
-    padding: 2px;
-    background-color: rgb(24, 24, 24);
-    border-radius: 2px;
-    color: #8181e2;
+    padding: 8px;
+    font-family: Iosevka;
+    background-color: #11111b;
+    border-radius: 0px;
+    color: #b4befe;
 }
 
 .indent-ul {
@@ -38,20 +49,18 @@ code {
 .intro {
     margin: 0;
     margin-bottom: 10px;
-    color: #6363b5;
+    color: #f5c2e7;
 }
 
 .divider {
     margin-top: 10px;
     padding: 30px;
-    background-color: #10101e;
+    background-color: #181825;
 }
 
 .altcode {
-    font-family: monospace;
     font-size: 15px;
-    border-radius: 2px;
-    color: #9f9ff4;
+    color: #a6e3a1;
 }
 
 .footer {
